@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
+import Users from "./components/Users";
+import Posts from "./components/Posts";
 
-const App = () => {
-  const title = 'Hello from React Component';
-  return (
-    <div>
-      <h1>{title}</h1>
-    </div>
-  );
-};
+const App = () => (
+  <main>
+    <h1>App</h1>
+    <Users />
+    <Posts />
+  </main>
+);
 
 export default App;
