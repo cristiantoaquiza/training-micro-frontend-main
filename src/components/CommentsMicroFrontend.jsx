@@ -20,7 +20,7 @@ const unmountCommentsMicroFrontEnd = () => {
 const appendScript = () => {
   const script = document.createElement("script");
   script.id = SCRIPT_ID;
-  script.src = "http://localhost:5001/bundle.js";
+  script.src = "http://localhost:9001/bundle.js";
   script.onload = renderCommentsMicroFrontEnd;
   document.head.appendChild(script);
 };
